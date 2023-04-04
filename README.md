@@ -12,6 +12,6 @@ My dev portfolio built with Next.js and styled components.
 
 <hr>
 
-## Tech-Stack
+## Tech
 
 Next.js | CSS | React Icons
