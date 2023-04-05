@@ -18,9 +18,7 @@ const Hero = () => (
         Using various technologies I develop custom built websites and those
         built with a CMS.
       </SectionText>
-      <Button
-        onClick={() => (window.location = "https://github.com/portercol")}
-      >
+      <Button onClick={() => (window.location = "/#projects")}>
         Take a look.
       </Button>
     </LeftSection>

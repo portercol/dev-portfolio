@@ -13,35 +13,6 @@ export const FooterWrapper = styled.section`
   }
 `;
 
-export const LinkItem = styled.a`
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
-  margin-bottom: 16px;
-  transition: 0.3s ease;
-  position: relative;
-  left: 0;
-
-  &:hover {
-    color: #fff;
-    left: 6px;
-  }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 16px;
-    line-height: 28px;
-    display: flex;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 8px;
-    line-height: 14px;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-  }
-`;
-
 export const SocialIconsContainer = styled.div`
   max-width: 1040px;
   display: flex;
@@ -104,8 +75,7 @@ export const SocialContainer = styled.div`
 
   @media ${(props) => props.theme.breakpoints.md} {
     justify-content: center;
-    padding-right: 16px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 `;
 
@@ -138,6 +108,34 @@ export const LinkColumn = styled.div`
   max-width: 220px;
   width: 100%;
 `;
+export const LinkItem = styled.a`
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 16px;
+  transition: 0.3s ease;
+  position: relative;
+  left: 0;
+
+  &:hover {
+    color: #fff;
+    left: 6px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+`;
 export const LinkTitle = styled.h4`
   font-style: normal;
   font-weight: 600;
@@ -148,7 +146,7 @@ export const LinkTitle = styled.h4`
   margin-bottom: 16px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 12px;
     margin-bottom: 8px;
   }
