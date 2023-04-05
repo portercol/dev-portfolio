@@ -15,8 +15,8 @@ const Hero = () => (
         Hi, I'm Collin. <br />I develop cool websites.
       </SectionTitle>
       <SectionText>
-        Using various technologies I develop custom built websites and those
-        built with a CMS.
+        As a Web Developer I aim to build unique, well-designed, user-friendly
+        websites.
       </SectionText>
       <Button onClick={() => (window.location = "/#projects")}>
         Take a look.
