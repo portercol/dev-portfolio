@@ -18,7 +18,11 @@ const Technologies = () => (
   <Section noPadding id="tech">
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
-    <SectionText>I have exp. with frontend/backend tech.</SectionText>
+    <SectionText>
+      I have professional experience with many different technologies and
+      platforms. Everything from frontend + backend technology to
+      WordPress/Shopify development and headless CMS development via Storyblok.
+    </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />

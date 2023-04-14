@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterWrapper = styled.section`
   width: calc(100vw - 96px);
   max-width: 1040px;
-  padding: 2rem 48px 40px;
+  padding: 4rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
 
@@ -139,7 +139,7 @@ export const LinkItem = styled.a`
 export const LinkTitle = styled.h4`
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.4);

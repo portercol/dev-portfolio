@@ -4,7 +4,12 @@ import {
   AiOutlineInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
-
+import {
+  // Section,
+  // SectionDivider,
+  // SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -20,7 +25,8 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
+      <SectionTitle>Get In Touch</SectionTitle>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Phone</LinkTitle>

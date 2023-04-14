@@ -67,7 +67,13 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
-      <SectionText>I'm a Developer.</SectionText>
+      <SectionText>
+        I'm a dad first and developer second. Family is the most important thing
+        to me and Web Development allows me to fuel our lives and future. I've
+        learned more in the last two years than I could have imagined and I'm
+        excited every day to learn new things through the world of Web
+        Development.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
