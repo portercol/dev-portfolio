@@ -16,10 +16,11 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         As a Web Developer I aim to build unique, well-designed, user-friendly
-        websites.
+        websites. Below are a few sample projects - please view my github
+        account to see all of my work.
       </SectionText>
       <Button onClick={() => (window.location = "/#projects")}>
-        <span>See my work &nbsp;</span>
+        <span>Sample stuff &nbsp;</span>
         <span style={{ paddingTop: "5px" }}>
           <FaArrowDown />
         </span>
