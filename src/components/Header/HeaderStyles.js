@@ -2,12 +2,17 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
+  background-color: #0f1624;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  z-index: 20;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -65,6 +70,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    margin-right: 1.5rem;
   }
 `;
 

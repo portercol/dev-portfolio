@@ -29,8 +29,13 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Tech</NavLink>
         </Link>
       </li>
       <li>
@@ -43,11 +48,6 @@ const Header = () => (
           <NavLink>Contact</NavLink>
         </Link>
       </li>
-      {/* <li>
-        <Link href="#contact">
-          <NavLink>Contact</NavLink>
-        </Link>
-      </li> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/portercol" target="_blank">

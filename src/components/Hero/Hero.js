@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaArrowDown } from "react-icons/fa";
 import {
   Section,
   SectionText,
@@ -19,7 +19,10 @@ const Hero = () => (
         websites.
       </SectionText>
       <Button onClick={() => (window.location = "/#projects")}>
-        Take a look.
+        <span>See my work &nbsp;</span>
+        <span style={{ paddingTop: "5px" }}>
+          <FaArrowDown />
+        </span>
       </Button>
     </LeftSection>
   </Section>
